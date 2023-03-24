@@ -1,0 +1,368 @@
+body{
+    overflow-x: hidden;
+}
+li{
+    list-style-type: none;
+}
+/* first page */
+/* nav */
+#logo{
+    margin-top: 13px;
+    margin-left: 70%;
+    height: 15vh;
+}
+#nav{
+    background: #475E72;
+    height: 22vh;
+    height: auto;
+}
+#navv{
+    margin-top: 10vh;
+    margin-left: 45%;
+}
+#navv a, .navbar-nav a, h4{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 1.1em;
+    color: #D8CBAC;
+}
+#navv a{
+    margin-right: 30px;
+}
+.navbar-nav a:hover{
+	color: #AB9A8F;
+}
+#navv a:hover{
+	color: #AB9A8F;
+}
+/* end nav */
+
+
+
+
+/* intro header aka banner*/
+.intro{
+    padding-left: 90px;
+    padding-right: 100px;
+    color: #5C4E62;
+    font-family: 'Tilt Neon', cursive;
+}
+
+#banner{
+    font-family: 'Tilt Neon', cursive;
+    padding-left: 17%;
+    padding-right: 23%;
+}
+#signup, #signup a{
+    background: #5C4E62;
+    border-radius: 13px;
+    color: #D8CBAC;
+    text-decoration: none;
+}
+.btn:hover, #signup a:hover, #febacsub:hover{
+    background-color: #D6C4AB !important;
+    color: #67576e !important;
+}
+#bannerimg{
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+/* ad n etc tec */
+#service, #services{
+    background: #D6C4AB;
+    height: 65vh;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 50px;
+}
+#service{
+    padding-bottom: 30px;
+    color: #5C4E62;
+}
+#creamy{
+    margin-top: 34px;
+    max-width: 100%;
+    height: 54vh;
+    margin-bottom: 30px;
+}
+#services{
+    background: #475E72;
+    height: auto;
+}
+#bobaimg{
+    height: 40vh;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#boba, #services{
+    color: #D6C4AB;
+    padding-bottom: 30px;
+}
+
+#carrot{
+    background-color: #F4E8D6;
+    height: 65vh;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 65px;
+    color: #5C4E62;
+}
+#serimg{
+    background: #5C4E62;
+}
+#carrotcake{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: 40vh;
+}
+#promo{
+    background: #475E72;
+}
+#promo img{
+    height: 60vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-width: 100%;
+}
+#promot{
+    color: #5C4E62;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: #F4E8D6;
+}
+/* sign up */
+form{
+    color: #5C4E62;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#signupdiv{
+    background-color: #5C4E62;
+
+}
+#signupimg{
+    margin-top: 20px;
+    max-width: 100%;
+    height: 85vh;
+    margin-bottom: 40px;
+}
+/* end home page */
+
+
+
+
+
+
+
+/* start menu page*/
+#pill{
+    border-right: 2px solid #AB9A8F;
+}
+#pill a{
+    background-color: white;
+    color: #67576e;
+    font-family: 'Tilt Neon', cursive;
+}
+#pill a:focus, #pill a:active{
+    background-color: #5C4E62;
+    color: #F4E8D6;
+}
+#menu{
+    color: #5C4E62;
+}
+.menu-it{
+    border-top: 1px solid #AB9A8F;
+    margin-top: 30px;
+    margin-right: ;
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 20vh;
+    padding-bottom: 30px;
+}
+.menu-it:hover{
+    height: 21vh;
+}
+.txtt{
+    color: #5C4E62;
+    font-size: 1.1em;
+    margin-left: 30px;
+    margin-top: 70px;
+    font-family: 'Tilt Neon', cursive;
+}
+.tab-pane b{
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+.menudiv:hover, .menudiv:active{
+    background-color: #D6C4AB;
+    font-size: 1em;
+}
+
+.menudiv{
+    border-bottom: 2px solid #D8CBAC;
+}
+#buy, #buyy{
+    margin-top: 10px;
+    text-align: left;
+    color: #475E72;
+}
+/*end menu*/
+
+
+
+
+
+/*order*/
+#ord{
+    padding-top: 20px;
+}
+#ord label{
+    color: #5C4E62;
+}
+#pay{
+    height: 8vh;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#paypay, #resv{
+    height: 80vh;
+    max-width: 100%;
+    margin-top: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paymg{
+    background: #D8CBAC;
+}
+/*end order*/
+
+
+
+
+
+/*reservation*/
+#reserv label{
+    color: #5C4E62;
+}
+#resvdiv{
+    background: #D8CBAC;
+}
+#resv{
+    height: 100vh;
+    margin-top: 3vh;
+}
+/*end reservation*/
+
+
+
+
+/*abt us*/
+#mapp{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'Tilt Neon', cursive;
+    color: #475E72;
+}
+.text{
+    color: #5C4E62;
+    margin-left: 110px;
+    font-family: 'Tilt Neon', cursive;
+    height: 70vh;
+    height: auto;
+}
+#purpose{
+    color: #5C4E62;
+    margin-top: 30px;
+    font-family: 'Tilt Neon', cursive;
+}
+.picc{
+    margin-top: 30px;
+    margin-left: 100px;
+    border-radius: 50%;
+    height: 25vh;
+    margin-bottom: 30px;
+}
+#about{
+    background: #D6C4AB;
+    height: auto;
+}
+.intt{
+    height: 50vh;
+    height: auto;
+    color: #D8CBAC;
+    font-family: 'Tilt Neon', cursive;
+}
+.inth{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #D8CBAC;
+    background: #475E72;
+    font-family: 'Tilt Neon', cursive;
+}
+.intimg{
+    height: 44vh;
+    max-width: 100%;
+    margin-top: 10vh;
+    margin-bottom: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+/*end abt us
+
+
+
+
+/*footer*/
+#foot{
+    font-size: 1.1em;
+    /* text-align: center; */
+    color: #D8CBAC;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+}
+#footer{
+    height: 60vh;
+    background: #475E72;
+    padding: 23px;
+    margin-top: 10px;
+    height: auto;
+}
+.last{
+    color: #F4E8D6;
+    padding-top: 20px;
+    margin-left: 100px;
+}
+#smedia{
+    text-align: right;
+    font-size: 2.5em;
+}
+#smico{
+    border: 1px solid #AB9A8F;
+    background-color: #AB9A8F;
+    border-radius: 30%;
+}
+#smedia a:hover{
+    background-color: #5C4E62 !important;
+    color: #67576e;
+    border: none;
+}
+.feedback{
+    color: #D6C4AB;
+}
+#febacsub{
+    background: #5C4E62;
+    border-radius: 9px;
+    color: #D8CBAC;
+}
+i{
+    color:#F4E8D6; 
+    font-size:28px;
+}
